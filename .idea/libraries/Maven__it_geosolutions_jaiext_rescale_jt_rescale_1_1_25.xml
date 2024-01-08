@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: it.geosolutions.jaiext.rescale:jt-rescale:1.1.25">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/it/geosolutions/jaiext/rescale/jt-rescale/1.1.25/jt-rescale-1.1.25.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/it/geosolutions/jaiext/rescale/jt-rescale/1.1.25/jt-rescale-1.1.25-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/it/geosolutions/jaiext/rescale/jt-rescale/1.1.25/jt-rescale-1.1.25-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
