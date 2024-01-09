@@ -3,7 +3,7 @@ Geotools学习记录
 
 Geotools官网：https://www.geotools.org/
 
-目前整理了：
+目前整理的官网教程内容：
 
 1.IntelliJ Quickstart
 
@@ -21,8 +21,10 @@ Geotools官网：https://www.geotools.org/
 
 8.process tutorial(依然有问题)
 
-代码可正常运行，与文档不同的地方有说明
+非官网学习内容：
 
-另外整理了minIO文件上传下载（minIO  uploader&downloader）
+1.minIO文件上传下载（minIO  uploader&downloader）
+
+代码可正常运行，与文档不同的地方有说明
 
 内容持续更新
