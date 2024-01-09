@@ -17,6 +17,7 @@ import java.util.logging.Logger;
 import org.geotools.api.data.FileDataStore;
 import org.geotools.api.data.FileDataStoreFinder;
 import org.geotools.api.data.SimpleFeatureSource;
+import org.geotools.api.feature.simple.SimpleFeatureType;
 import org.geotools.map.FeatureLayer;
 import org.geotools.map.Layer;
 import org.geotools.map.MapContent;
@@ -55,6 +56,8 @@ public class Quickstart {
         MapContent map = new MapContent();
         map.setTitle("Quickstart");
 
+        SimpleFeatureType schema = featureSource.getSchema();
+        System.out.println(schema.getGeometryDescriptor().getType().getName().toString());
         Style style = SLD.createSimpleStyle(featureSource.getSchema());
         Layer layer = new FeatureLayer(featureSource, style);
         map.addLayer(layer);

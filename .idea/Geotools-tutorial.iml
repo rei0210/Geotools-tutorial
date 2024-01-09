@@ -17,7 +17,6 @@
     <orderEntry type="library" name="Maven: org.geotools:gt-http:31-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.locationtech.jts:jts-core:1.19.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-text:1.10.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.12.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.re2j:re2j:1.6" level="project" />
     <orderEntry type="library" name="Maven: org.ejml:ejml-ddense:0.41" level="project" />
     <orderEntry type="library" name="Maven: org.ejml:ejml-core:0.41" level="project" />
@@ -136,5 +135,10 @@
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.4.10" level="project" />
     <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.57" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.trove4j:core:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.geotools:gt-geojson:31-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.12.0" level="project" />
   </component>
 </module>
