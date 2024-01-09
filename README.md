@@ -25,6 +25,8 @@ Geotools官网：https://www.geotools.org/
 
 1.minIO文件上传下载（minIO  uploader&downloader）
 
+2.用geotools读写shp文件（待完善）
+
 代码可正常运行，与文档不同的地方有说明
 
 内容持续更新
