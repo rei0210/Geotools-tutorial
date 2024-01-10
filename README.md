@@ -21,7 +21,7 @@ Geotools官网：https://www.geotools.org/
 
 8.process tutorial(依然有问题)
 
-非官网学习内容：
+非官网geotool tutorial的学习内容：
 
 1.minIO文件上传下载（minIO  uploader&downloader）
 
