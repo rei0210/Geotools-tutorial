@@ -53,7 +53,10 @@ GeoTools：Feature&Shapefile之CRUD操作：https://blog.csdn.net/weixin_4352421
 
 Geotools-cql:https://docs.geotools.org/stable/userguide/library/cql/ecql.html
 
-Geotools-userguide:https://docs.geotools.org/stable/userguide/index.html（更详细的geotools使用指南）
+Geotools-userguide:https://docs.geotools.org/stable/userguide/index.html（更详细的geotools使用指南，帮助更好理解代码）
+
+geotools Feature:https://docs.geotools.org/stable/userguide/library/api/feature.html
+
 
 
 
