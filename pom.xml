@@ -73,6 +73,13 @@
     </dependency>
 
     <dependency>
+      <groupId>org.geotools</groupId>
+      <artifactId>gt-opengis</artifactId>
+      <version>29.4</version>
+    </dependency>
+
+
+    <dependency>
       <groupId>io.minio</groupId>
       <artifactId>minio</artifactId>
       <version>8.5.7</version>
@@ -109,6 +116,10 @@
       <snapshots><enabled>false</enabled></snapshots>
       <releases><enabled>true</enabled></releases>
     </repository>
+<!--    <repository>-->
+<!--      <id>GeoSolutions</id>-->
+<!--      <url>http://maven.geo-solutions.it/</url>-->
+<!--    </repository>-->
     <repository>
       <id>osgeo-snapshot</id>
       <name>OSGeo Snapshot Repository</name>

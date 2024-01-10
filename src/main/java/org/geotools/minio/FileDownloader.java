@@ -19,7 +19,7 @@ public class FileDownloader {
                     DownloadObjectArgs.builder()
                             .bucket("gtfiles")//桶名
                             .object("star2.shp")//文件名
-                            .filename("D:\\shapeFiles\\test5\\mystar.shp")//下载到的位置和文件名
+                            .filename("D:\\shapeFiles\\test5\\mystar1.shp")//下载到的位置和文件名
                             .build());
 
         }catch (Exception e){

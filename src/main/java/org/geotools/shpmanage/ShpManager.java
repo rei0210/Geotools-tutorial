@@ -1,10 +1,6 @@
 package org.geotools.shpmanage;
 
-import org.geotools.api.filter.Filter;
-import com.alibaba.fastjson.JSONArray;
-import org.geotools.api.data.DataStore;
-import org.geotools.data.shapefile.files.ShpFileType;
-import org.geotools.data.shapefile.files.ShpFiles;
+import org.geotools.filter.text.cql2.CQLException;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,7 +17,13 @@ public interface ShpManager {
 
     public void updateFeature();
 
-    public void getFeaturesById(String id);
+    public void getShpFeatures(File file, Map<String, Object> featureMap, String geometryStr) throws IOException;
+
+    public void getShpFeaturesByCQL(File file, String cql) throws IOException, CQLException;
+
+    public void deleteFeatureByCQL(File file,String cql) throws IOException, CQLException;
+
+    public void updateFeatureByCQL(File file,String cql,Map<String, Object> featureMap) throws IOException, CQLException;
 
 
 

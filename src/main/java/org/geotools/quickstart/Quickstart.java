@@ -12,6 +12,7 @@
 package org.geotools.quickstart;
 
 import java.io.File;
+import java.util.Arrays;
 import java.util.logging.Logger;
 
 import org.geotools.api.data.FileDataStore;
@@ -58,6 +59,9 @@ public class Quickstart {
 
         SimpleFeatureType schema = featureSource.getSchema();
         System.out.println(schema.getGeometryDescriptor().getType().getName().toString());
+        System.out.println(featureSource.getInfo().getName());
+        System.out.println(Arrays.toString(featureSource.getFeatures().toArray()));
+
         Style style = SLD.createSimpleStyle(featureSource.getSchema());
         Layer layer = new FeatureLayer(featureSource, style);
         map.addLayer(layer);
