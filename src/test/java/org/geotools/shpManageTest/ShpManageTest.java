@@ -63,9 +63,9 @@ public class ShpManageTest {
         //String fileurl="D:\\shapeFiles\\test6\\star2\\star2.shp";
         String fileurl="D:\\shapeFiles\\test6\\c1\\c1.shp";
         //String cql="include";
-        String cql="c1_id=2";//shp文件中自定义的属性不能叫id否则会报错
+        String cql="c1_id=4 and c1_type='null' ";//shp文件中自定义的属性不能叫id否则会报错
         Map<String, Object> map = new LinkedHashMap<String, Object>();
-        map.put("c1_type","triangle");
+        map.put("c1_type","other");
         File file= Tool.checkShapeFile(fileurl);
         ShpManager shpManager=new ShpMangerImpl();
         shpManager.updateFeatureByCQL(file,cql,map);

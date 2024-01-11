@@ -5,13 +5,11 @@ import org.geotools.api.feature.Property;
 import org.geotools.api.feature.simple.SimpleFeature;
 import org.geotools.api.feature.simple.SimpleFeatureType;
 import org.geotools.api.feature.type.AttributeDescriptor;
-import org.geotools.api.feature.type.Name;
 import org.geotools.api.filter.Filter;
 import org.geotools.api.filter.FilterFactory;
 import org.geotools.data.simple.SimpleFeatureCollection;
 import org.geotools.data.simple.SimpleFeatureIterator;
 import org.geotools.factory.CommonFactoryFinder;
-import org.geotools.filter.text.cql2.CQL;
 import org.geotools.filter.text.cql2.CQLException;
 import org.geotools.filter.text.ecql.ECQL;
 import org.geotools.geojson.geom.GeometryJSON;
@@ -20,6 +18,7 @@ import org.locationtech.jts.geom.Geometry;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.StringWriter;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -55,7 +54,11 @@ public  class ShpMangerImpl implements ShpManager {
             //System.out.println("fieldtype:"+attr.getType().getBinding());//输出字段类型
         }
         Geometry geometry = new GeometryJSON().read(geometryStr);
-
+        StringWriter writer = new StringWriter();
+        GeometryJSON g = new GeometryJSON();
+        System.out.println(geometry.toString());
+        g.write(geometry, writer);
+        System.out.println(writer.toString());
         next.setDefaultGeometry(geometry);
         // 必须写入和关闭
         featureWriter.write();
@@ -85,12 +88,12 @@ public  class ShpMangerImpl implements ShpManager {
         for(Map.Entry<String, Object> entry : featureMap.entrySet()){
             System.out.println("key:"+entry.getKey()+" "+"val:"+entry.getValue());
             filter =  filterFactory.equals(filterFactory.property(entry.getKey()), filterFactory.literal(entry.getValue()));
-        }
+        } 
         String typeName=store.getTypeNames()[0];
         SimpleFeatureSource featureSource = store.getFeatureSource(typeName);
 
         SimpleFeatureCollection features = featureSource.getFeatures(filter);
-
+        //SimpleFeatureCollection features = featureSource.getFeatures();
         SimpleFeatureIterator simpleFeatureIterator = features.features();
         while (simpleFeatureIterator.hasNext()) {
             SimpleFeature simpleFeature = simpleFeatureIterator.next();

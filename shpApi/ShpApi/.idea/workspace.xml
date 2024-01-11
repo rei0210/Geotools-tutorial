@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb5db42-c686-44d2-9f8f-71d53327cb84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shpApi/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shpApi/dao/ShpFeatureInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shpApi/entity/ShpAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shpApi/entity/ShpFeatureInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shpApi/shpManager/ShpManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shpApi/shpManager/impl/ShpManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/shpApi/tools/ShpTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/shpApi/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/shpApi/apiTest/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/main/java/org/geotools/feature/FeatureStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/org/geotools/shpmanage/ShpManagerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/org/geotools/shpmanage/ShpManagerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/java/org/geotools/shpmanage/impl/ShpMangerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/org/geotools/shpmanage/impl/ShpMangerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/test/java/org/geotools/shpManageTest/ShpManageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/test/java/org/geotools/shpManageTest/ShpManageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/org/geotools/shpmanage/ShpManagerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/org/geotools/shpmanage/ShpManagerApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/org/geotools/shpmanage/impl/ShpMangerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/org/geotools/shpmanage/impl/ShpMangerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/org/geotools/shpManageTest/ShpManageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/org/geotools/shpManageTest/ShpManageTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2an6bc5jehfz6OPdf6ToFwWksr4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/javaSpace/Geotools-tutorial/shpApi/ShpApi",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ApiTest.TestUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShpApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.shpApi.apiTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.shpApi.apiTest" />
+      <option name="MAIN_CLASS_NAME" value="org.shpApi.apiTest.ApiTest" />
+      <option name="METHOD_NAME" value="TestUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiTest.TestUpdate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb5db42-c686-44d2-9f8f-71d53327cb84" name="Changes" comment="" />
+      <created>1704942080507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704942080507</updated>
+      <workItem from="1704942081925" duration="635000" />
+      <workItem from="1704942734639" duration="15241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
