@@ -27,6 +27,8 @@ Geotools官网：https://www.geotools.org/
 
 2.用geotools对shp文件的要素进行增删改查（使用ECQL过滤器）
 
+3.ShpApi中为对shp文件的Feature进行增添和修改的接口（使用了FactoryFilter），接下来希望用springboot框架进行接口开发
+
 代码可正常运行，与文档不同的地方有说明
 
 内容持续更新
@@ -57,6 +59,9 @@ Geotools-userguide（更详细的geotools使用指南，帮助更好理解代码
 
 geotools Feature:https://docs.geotools.org/stable/userguide/library/api/feature.html
 
+java中try-catch和throw的使用：https://blog.csdn.net/Sundy_sc/article/details/101106847
+
+Geotools-Filter：https://docs.geotools.org/stable/userguide/library/api/filter.html
 
 
 
